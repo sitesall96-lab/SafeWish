@@ -1,0 +1,156 @@
+/* SafeWish Popup Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  width: 340px;
+  background: #0F172A;
+  color: #E2E8F0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.logo {
+  font-size: 40px;
+  margin-bottom: 6px;
+}
+
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #F8FAFC;
+  letter-spacing: -0.3px;
+}
+
+.tagline {
+  font-size: 12px;
+  color: #94A3B8;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+}
+
+/* Status Card */
+.status-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+
+.status-active {
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #10B981;
+  box-shadow: 0 0 8px #10B981;
+  flex-shrink: 0;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 8px #10B981; }
+  50%      { opacity: 0.6; box-shadow: 0 0 16px #10B981; }
+}
+
+.status-card strong {
+  display: block;
+  font-size: 13px;
+  color: #10B981;
+}
+
+.status-card span {
+  font-size: 11px;
+  color: #94A3B8;
+}
+
+/* Info */
+.info {
+  margin-bottom: 16px;
+}
+
+.info h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #F8FAFC;
+  margin-bottom: 8px;
+}
+
+.info p {
+  font-size: 12.5px;
+  color: #CBD5E1;
+  margin-bottom: 6px;
+}
+
+.info strong {
+  color: #FCA5A5;
+}
+
+/* Features */
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: #CBD5E1;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+}
+
+.feature-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer p {
+  font-size: 11px;
+  color: #64748B;
+  margin-bottom: 4px;
+}
+
+.footer a {
+  font-size: 11px;
+  color: #60A5FA;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
