@@ -67,7 +67,7 @@ Since this extension isn't on the Chrome Web Store (yet), you can install it man
 ### Step 1: Download the Extension
 
 ```bash
-git clone https://github.com/user/safewish.git
+git clone https://github.com/sitesall96-lab/SafeWish.git
 ```
 
 Or click the green **"Code"** button above → **"Download ZIP"** → Unzip the folder.
